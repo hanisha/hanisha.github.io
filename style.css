@@ -1,0 +1,140 @@
+/* CSS below */
+h1 {color:red;
+/*background-color: yellow; */}
+
+body 
+{ 
+	font-family: 'Overpass', sans-serif;
+	color: #404040;
+	font-size: 18px;
+  margin: 0;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+
+  float: left;
+  color: #FFFFFC;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #beb7a4;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #FFFFFC;
+  color: white;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+a{ color: #f38181;
+	text-decoration:none;}
+
+a:hover{opacity: 0.7;}
+
+h1, h2, h3 {
+  color: #404040;
+  font-family: Chivo;
+}
+
+.container {
+  width: 90%;
+  margin: 60px auto;
+}
+
+.banner {
+  background-image: url('images/India_blur_1.jpg'); 
+ 
+
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+
+.banner h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.blue-button {
+  background-color: #1A48E3;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  /*font-size: 20px;*/
+  font-weight: bold;
+}
+
+.blue-button:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+.blue-button a{
+	color: white;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+}
+
+.footer {
+  background: #404042;
+  color: white;
+  padding: 10px 0px;
+}
+
+.cards {
+  display: grid;
+  /*grid-template-columns: 1fr 1fr 1fr;*/
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* from https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/*/
+  grid-gap: 16px;
+}
+
+.subheader {
+  font-family: "Allerta+Stencil";
+}
+
+
